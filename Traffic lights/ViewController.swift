@@ -30,6 +30,8 @@ class ViewController: UIViewController {
         buttonStart.layer.cornerRadius = 10
     }
 
+//    решил реализовать без Enum
+    
     @IBAction func buttunStartPress() {
         buttonStart.setTitle("Next", for: .normal)
         
